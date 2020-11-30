@@ -1,0 +1,218 @@
+
+body{
+    font-size: 14px;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+hr{
+    margin: 20px 0px;
+}
+p{
+    line-height: 145%;
+}
+.nav{
+    height: 100px;
+    background-color: rgb(39, 96, 129);
+}
+.bold{
+    font-weight: bold;
+}
+.view-prop{
+    display: flex;
+    justify-content: center;
+    padding: 40px 80px;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+.card{
+    border: rgba(133, 133, 133, 0.295) solid 1px;
+    border-radius: 7px;
+    background-color: rgb(252, 252, 252);
+}
+.card-prop{
+    padding: 40px;
+    min-width: 500px;
+    max-width: 700px;
+}
+.view-hist-prop{
+    max-width: 800px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.view-header-prop{
+    margin-bottom: 65px;
+}
+.view-header-prop h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.view-header-prop div{
+    display: inline;
+    padding-right: 10px;
+}
+.italic-gray{
+    color: rgb(168, 168, 168);
+    font-style: italic;
+}
+.view-solution-prop{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.fichier{
+    padding:10px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+}
+.fichier-icon{
+    height: 50px;
+    background: no-repeat center/60% url("pdf-icon.png");
+}
+.fichier-titre{
+    margin-top: 7px;
+    text-align: center;
+}
+.fichier a{
+    color: black;
+    text-decoration: none;
+}
+.fichier:hover{
+    background-color: rgb(231, 240, 255);
+    transition: 0.3s;
+}
+.fichier a:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.bloc-list-fichier{
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-top: rgba(133, 133, 133, 0.295) solid 1px;
+}
+.bloc-phase{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: rgba(133, 133, 133, 0.295) solid 1px;
+}
+.bloc-phase div{
+    padding: 20px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.phase-desactive{
+    background-color: rgba(212, 212, 212, 0.671);
+    color: rgb(102, 102, 102);
+}
+.btn-etu{
+    border-left: rgba(133, 133, 133, 0.295) solid 1px;
+    border-right: rgba(133, 133, 133, 0.295) solid 1px;
+    flex-grow: 1;
+}
+.btn-val{
+    border-radius:0px 7px 0px 0px;
+}
+.btn-opp{
+    border-radius:0px 0px 0px 7px;
+}
+.bloc-suivi{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.commentaire{
+    padding: 10px 30px;
+    
+}
+.commentaire-autheur{
+    margin-bottom: 10px;
+}
+.commentaire-fichier{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+.changement-statut{
+    margin: 10px 0px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+}
+.bottom-suivi{
+    
+}
+.space-commentaire{
+    height: 30px;
+}
+.bar-statut-yellow{
+    background-color: rgb(255, 241, 204);
+    border: 1px solid rgb(255, 214, 100);
+}
+.bar-statut-blue{
+    background-color: rgb(204, 230, 255);
+    border: 1px solid rgb(100, 180, 255);
+}
+.bar-statut-green{
+    background-color: rgb(204, 255, 224);
+    border: 1px solid rgb(100, 255, 152);
+}
+.bar-statut-red{
+    background-color: rgb(255, 204, 204);
+    border: 1px solid rgb(255, 100, 100);
+}
+.bloc-statut{
+    border-top: rgba(133, 133, 133, 0.295) solid 1px;
+    border-bottom: rgba(133, 133, 133, 0.295) solid 1px;
+padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(243, 243, 243);
+}
+.btn-changement-statut{
+    padding: 10px;
+    border: blue 1px solid;
+}
+.bloc-commentaire{
+
+    height: 100px;
+    display: flex;
+    padding: 5px 20px;
+    padding-top: 20px;
+}
+.bloc-commentaire textarea{
+    display: inline-block;
+    resize: none;
+    overflow: auto;
+    height: 60px;
+    flex-grow: 3;
+    padding: 10px;
+    border-radius: 7px;
+    border: solid 1px rgba(128, 128, 128, 0.24);
+}
+.commentaire-btn-envoyer{
+    background-color: rgba(94, 94, 231, 0.205);
+    padding: 10px 20px;
+    margin-left:10px ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.commentaire-btn-fichier{
+    background-color: rgba(94, 94, 231, 0.205);
+    padding: 10px 20px;
+    margin-left:10px ;
+    border-radius: 5px;
+}
+
